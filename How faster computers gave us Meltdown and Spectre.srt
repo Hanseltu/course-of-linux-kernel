@@ -1,0 +1,264 @@
+﻿1
+00:00:02,660 --> 00:00:07,960
+If you store any personal information on a
+computer, smartphone, or web service,
+
+2
+00:00:07,960 --> 00:00:14,220
+your data is at risk from two massive computer
+security exploits: Spectre and Meltdown.
+
+3
+00:00:14,220 --> 00:00:18,039
+Two major flaws in computer chips, called "Meltdown" and "Spectre."
+
+4
+00:00:18,039 --> 00:00:22,039
+Technology firms are rushing to fix a security flaw identified in computer chips.
+
+5
+00:00:22,039 --> 00:00:26,059
+What makes Meltdown and 
+Spectre especially sinister, aside from their
+
+6
+00:00:26,059 --> 00:00:28,000
+James Bondian names,
+
+7
+00:00:28,000 --> 00:00:30,780
+is that they affect your
+computer at the hardware level:
+
+8
+00:00:30,780 --> 00:00:33,759
+the processors inside your devices.
+
+9
+00:00:33,759 --> 00:00:38,420
+And these flaws exist not because of a bug in
+computer software design, but because of
+
+10
+00:00:38,420 --> 00:00:51,520
+a feature in computer hardware that has been
+around since 1995.
+
+11
+00:00:51,520 --> 00:00:55,280
+Consumers expect computers to get faster and
+faster each year.
+
+12
+00:00:55,280 --> 00:00:57,679
+The new Apple TV isn't just slightly faster,
+
+13
+00:00:57,679 --> 00:00:59,159
+it's remarkably faster.
+
+14
+00:00:59,159 --> 00:01:03,719
+We built the fastest, most responsive stylus experience ever.
+
+15
+00:01:03,719 --> 00:01:09,400
+To satisfy this insatiable need for increasingly
+fast computers, chip developers added a function
+
+16
+00:01:09,400 --> 00:01:13,239
+to processors called Speculative Execution.
+
+17
+00:01:13,239 --> 00:01:16,049
+Processors are the chips inside a computer
+
+18
+00:01:16,049 --> 00:01:20,040
+that allow it to perform hundreds of billions
+of calculations per second.
+
+19
+00:01:20,040 --> 00:01:22,879
+Think of it as the computer’s brain.
+
+20
+00:01:22,879 --> 00:01:27,400
+Speculative execution allows the computer
+to guess what you might do next and perform
+
+21
+00:01:27,400 --> 00:01:36,319
+necessary calculations for those possible
+outcomes, keeping one step ahead of you.
+
+22
+00:01:36,319 --> 00:01:40,890
+Imagine if your favorite coffee shop began
+preparing your favorite orders ahead of time.
+
+23
+00:01:40,890 --> 00:01:44,590
+Your coffee is ready for you before you ask
+for it and you’re in and out of the shop
+
+24
+00:01:44,590 --> 00:01:47,530
+faster than if you were to order from scratch
+every time.
+
+25
+00:01:47,530 --> 00:01:50,280
+That’s speculative execution.
+
+26
+00:01:50,280 --> 00:01:53,280
+But what about the orders that were made that
+you didn’t purchase?
+
+27
+00:01:53,280 --> 00:01:56,599
+Or what if you decide to order something else
+entirely that day?
+
+28
+00:01:56,599 --> 00:02:00,519
+Those unused, pre-made orders...well, they
+get trashed.
+
+29
+00:02:00,519 --> 00:02:04,450
+That’s the problem with speculative execution
+— all those junked orders,
+
+30
+00:02:04,450 --> 00:02:06,289
+They’re not really protected.
+
+31
+00:02:06,289 --> 00:02:10,259
+Someone sorting through those trashed orders
+might gain brief unauthorized access to your
+
+32
+00:02:10,259 --> 00:02:12,039
+name or your daily order.
+
+33
+00:02:12,039 --> 00:02:16,530
+But, of course, the information you keep on
+your computer is probably a bit more sensitive
+
+34
+00:02:16,530 --> 00:02:22,889
+than your preference for almond milk.
+
+35
+00:02:22,889 --> 00:02:27,530
+Meltdown and Spectre exploit this feature
+by using malicious code that tricks a computer
+
+36
+00:02:27,530 --> 00:02:31,319
+into speculatively loading information it
+wouldn’t normally have access to.
+
+37
+00:02:31,319 --> 00:02:35,879
+And you — or an antivirus program — wouldn’t
+necessarily know that someone is snooping
+
+38
+00:02:35,879 --> 00:02:41,800
+on your data since Meltdown and Spectre are
+exploiting a normal function of your computer’s processor.
+
+39
+00:02:41,800 --> 00:02:49,719
+These exploits could allow a hacker to snoop
+on data on a computer or a smartphone, or even in the cloud.
+
+40
+00:02:49,719 --> 00:02:54,729
+Spectre allows a malicious program or code
+to trick other applications, using a shared
+
+41
+00:02:54,729 --> 00:02:59,939
+processor, into loading sensitive information
+that it would normally keep secure and separate
+
+42
+00:02:59,939 --> 00:03:01,810
+between the programs.
+
+43
+00:03:01,810 --> 00:03:05,759
+Meltdown works slightly differently — instead
+of tricking one application into revealing
+
+44
+00:03:05,759 --> 00:03:10,680
+sensitive information to another, it exploits
+the relationship between the application and
+
+45
+00:03:10,680 --> 00:03:16,919
+the computer’s memory — but in the end,
+the results are the same: compromised data
+
+46
+00:03:16,919 --> 00:03:21,560
+While Software companies are rolling out patches
+to help guard against Meltdown, that protection
+
+47
+00:03:21,560 --> 00:03:23,520
+comes at a cost.
+
+48
+00:03:23,520 --> 00:03:28,360
+And in some cases, those patches could make
+a computer operate slower.
+
+49
+00:03:28,360 --> 00:03:33,520
+Though software patches can prevent some Spectre
+attacks, it really requires new hardware to
+
+50
+00:03:33,520 --> 00:03:37,199
+be designed and implemented to completely
+fix the problem.
+
+51
+00:03:37,199 --> 00:03:40,879
+And that means many devices could be vulnerable
+to Spectre attacks for decades,
+
+52
+00:03:40,879 --> 00:03:42,960
+as devices are upgraded.
+
+53
+00:03:42,960 --> 00:03:46,759
+But don’t let that stop you from installing
+patches and protecting your data now.
+
+54
+00:03:46,759 --> 00:03:48,879
+Seriously, that would not be smart.
+
+55
+00:03:48,879 --> 00:03:51,158
+It was our need for speed that got us into
+
+56
+00:03:51,158 --> 00:03:52,520
+this mess in the first place..
+
+57
+00:03:52,520 --> 00:03:54,380
+And good security nearly always comes with a compromise
+
